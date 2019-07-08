@@ -14,8 +14,8 @@ function searchFlickr(f, e) {
     .done(function (data) {
       console.log(data);
         var trHTML = '';
-        console.log(data.title);
-    $('#images').append($('<h3>').text(data.title))
+//         console.log(data.title);
+
     $.each(data.items, function (i, item) {
     var author =item.author;
     var link = item.link;
