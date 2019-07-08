@@ -1,0 +1,48 @@
+There are two code tests:
+
+First test (React.js) is essential.  But second test(Speed test) is optional.  If you don’t have enough time, please just do first test and submit.  Second test is optional.
+
+
+1. Essential test - React.js
+
+From the Flickr public JSON, show the results in real time as the user types the search term, including the following information:
+
+• the image
+
+• the author
+
+• the tags
+
+• link thumbnail to hi-resolution image
+
+Use the Flickr public JSON feed found here - https://www.flickr.com/services/feeds/docs/photos_public/
+
+Note: For JSON data, you need to call this API with “format=json” query parameter
+
+You can choose any framework, but If you are using React.js, please use it with Redux.
+
+I encourage you to use ES6 or Typescript.
+https://codeburst.io/multiple-ways-of-implementing-flickr-public-api-in-jquery-and-javascript-dbaf0f35bbef
+https://www.w3schools.com/react/react_forms.asp
+
+
+2. Optional test - SpeedTest
+
+Please download the below JS file and change codes to achieve goal.
+
+https://drive.google.com/open?id=1q57NArFucFWImuk-g2WUTLv-K56MXU-7
+
+These codes runs the download simulator, and calculate the average download speed.
+
+The goal is, ignore the first 2 seconds and last 2 seconds data, then calculate the average download speed 
+
+
+
+You can push the codes into Github or Bitbucket and share the repository URL.
+
+Could you please let me know when you can submit this?
+
+There is no due date, but the earlier will be preferred.
+
+
+If there is any question, please do not hesitate to contact me.
