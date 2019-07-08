@@ -7,6 +7,11 @@ function searchFlickr(f, e) {
   var searchMode = $('input:radio[name=SearchMode]:checked').val();
  $('#records_table').html('');
    $('<h3>').html('');
+    $('#records_table').html(` <tr><th>Author</th>
+        <th>Link</th>
+        <th>Tags</th>
+         <th>Image</th>
+    </tr>`);
   // GET images and build HTML
   $.getJSON(flickerAPI, { 
   tags: searchTags, tagmode: searchMode, 
