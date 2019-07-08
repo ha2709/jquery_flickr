@@ -5,7 +5,8 @@ function searchFlickr(f, e) {
   // get form values
   var searchTags = $('#searchCriteria').val(); // comma delimited tags
   var searchMode = $('input:radio[name=SearchMode]:checked').val();
-
+ $('#records_table').html('');
+   $('<h3>').html('');
   // GET images and build HTML
   $.getJSON(flickerAPI, { 
   tags: searchTags, tagmode: searchMode, 
